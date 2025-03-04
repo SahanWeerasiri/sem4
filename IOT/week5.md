@@ -39,10 +39,17 @@ We have to work with device libraries as well and identify the way of their work
 
 ## LUA
 * event driven
-* can run as a script or convert in to a native byte code
+* can run as a script(run time environment) or convert in to a native byte code(virtual processor, this will be an intermediate level)
 
-# .NET
+## .NET
 * chip > on that > .NET core > on that > Code
+* using this framework we can code the device and the server as well
+
+## ESP
+* C langage, only work with ESP chips
+
+## Ubuntu core
+* low resources
 
 # Development Envienment
 * Normally compile -> target is own Processor
@@ -53,7 +60,10 @@ We have to work with device libraries as well and identify the way of their work
 ## Startup code
 * POST - test the sensors,... in correct initial positions to be work properly
 
-## Diagnostic
+## Diagnostic(OBD - On board diagnostics)
 * Parallel
 * Monitoring whats happening in the network, what msgs going in out
-* It capture corrupted msgs and log them, sometims take actions
+* It capture corrupted msgs and log them, (sometims take actions)
+
+## Supervisory function
+* Monitor and take nessecery acions
